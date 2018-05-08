@@ -47,14 +47,14 @@ Scenario('two session - google & msn', async (I) => {
 	nrGSearchResults = await I.grabNumberOfVisibleElements( locGSearchItem );
 	//pause();
 
-	tmp = await I.grabTextFrom(locGResultsStats);
-	//tmp = tmp.match( /About ([\d,]?) results.*/ );
-	console.log("tmp=", tmp);
-	tmp = tmp.match( / [\d,]+ / );
-	tmp = tmp[0];
-	tmp = tmp.replace( /,/g, "" );
-	tmp = parseInt(tmp);
-	nrGSearchResultsTotal = tmp;
+	//tmp = await I.grabTextFrom(locGResultsStats);
+	////tmp = tmp.match( /About ([\d,]?) results.*/ );
+	//console.log("tmp=", tmp);
+	//tmp = tmp.match( / [\d,]+ / );
+	//tmp = tmp[0];
+	//tmp = tmp.replace( /,/g, "" );
+	//tmp = parseInt(tmp);
+	//nrGSearchResultsTotal = tmp;
 
 
 	// second session: yahoo
@@ -69,13 +69,13 @@ Scenario('two session - google & msn', async (I) => {
 		//pause();
 		I.seeElement( locMSearchItem );
 		nrMSearchResults = await I.grabNumberOfVisibleElements( locMSearchItem );
-		nrMSearchResultsTotal = await I.grabTextFrom(locMResultsStats);
+		//nrMSearchResultsTotal = await I.grabTextFrom(locMResultsStats);
 	});
 
 	console.log("Google: " + nrGSearchResults + " search results on the page");
-	console.log("Google: " + nrGSearchResultsTotal + " total search results");
+	//console.log("Google: " + nrGSearchResultsTotal + " total search results");
 
 	console.log("MSN   : " + nrMSearchResults + " search results on the page");
-	console.log("MSN   : " + nrMSearchResultsTotal + " total search results");
+	//console.log("MSN   : " + nrMSearchResultsTotal + " total search results");
 
 });
