@@ -1,4 +1,6 @@
 // twoSessions_test.js
+
+/// for IDE:
 /// <reference path="./steps.d.ts" />
 
 const urlG = "http://www.google.com/";
