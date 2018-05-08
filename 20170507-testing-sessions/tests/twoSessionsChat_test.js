@@ -3,6 +3,9 @@
 /// for IDE:
 /// <reference path="./steps.d.ts" />
 
+const moment = require("moment");
+
+// locators etc
 const url = "http://toom47-001-site5.itempurl.com/UI/ChatRoom";
 
 const locNameField = "#MainContent_textUserName";
@@ -30,6 +33,9 @@ Scenario('two session - chat simple stateful app', async (I) => {
 	I.fillField( locTextField, text );
 	I.wait(1);
 	I.click( locSayItButton );
+
+	I.seeTextEquals( name, locConversationItemField2 );
+	I.seeTextEquals( text, locConversationItemField3 );
 
 	pause();
 
