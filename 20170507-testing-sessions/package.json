@@ -10,6 +10,8 @@
 	"homepage": "https://codecept.io",
 	"main": "index2.js",
 
+	"repository": "https://github.com/ontytoom/CodeceptJS-Testing.git",
+
 	"dependencies": {
 		"codeceptjs": "github:Codeception/CodeceptJS",
 		"webdriverio": "^4.12.0",

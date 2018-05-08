@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6323ad42-de0e-410e-908f-796f04ea05f7" name="Default" comment="" />
+    <list default="true" id="6323ad42-de0e-410e-908f-796f04ea05f7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/twoSessions_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/twoSessions_test.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,25 +16,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/package.json">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="1288">
-                    <caret line="92" column="7" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="7" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.38931298">
       <split-first>
@@ -38,8 +23,8 @@
           <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                <state relative-caret-position="322">
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
                 </state>
               </provider>
             </entry>
@@ -51,8 +36,8 @@
           <file leaf-file-name="twoSessions_test.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/twoSessions_test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="14">
-                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+                <state relative-caret-position="896">
+                  <caret line="65" column="36" lean-forward="true" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
                   <folding>
                     <element signature="e#24#36#0" />
                   </folding>
@@ -86,6 +71,9 @@
       <dir>C:\dvt.code\CodeceptJS\code\20180507-testing-sessions\node_modules\codeceptjs</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -94,9 +82,9 @@
         <option value="$PROJECT_DIR$/bin/path.env" />
         <option value="$PROJECT_DIR$/codecept.json" />
         <option value="$PROJECT_DIR$/tests/google1_test.js" />
-        <option value="$PROJECT_DIR$/tests/twoSessions_test.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/index2.js" />
+        <option value="$PROJECT_DIR$/tests/twoSessions_test.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -131,6 +119,9 @@
     <option name="width" value="1173" />
     <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -142,6 +133,16 @@
             <path>
               <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
               <item name="20170507-testing-sessions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20170507-testing-sessions" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20170507-testing-sessions" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,7 +178,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/dvt/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -200,6 +201,39 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Bash.cc run (1)">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="C:\dvt\Git\usr\bin\bash.exe" />
+      <option name="WORKING_DIRECTORY" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="./bin/cc run" />
+      <module name="" />
+    </configuration>
+    <configuration name="cc run (1)" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="C:\dvt\Git\usr\bin\bash.exe" />
+      <option name="WORKING_DIRECTORY" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions\node_modules\.bin\codeceptjs" />
+      <option name="PARAMETERS" value="run" />
+      <module name="" />
+    </configuration>
+    <configuration name="cc run" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="C:\dvt\Git\usr\bin\bash.exe" />
+      <option name="WORKING_DIRECTORY" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions\bin\cc" />
+      <option name="PARAMETERS" value="run" />
+      <module name="" />
+    </configuration>
+    <list>
+      <item itemvalue="Bash.cc run" />
+      <item itemvalue="Bash.cc run (1)" />
+    </list>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6323ad42-de0e-410e-908f-796f04ea05f7" name="Default" comment="" />
@@ -214,30 +248,31 @@
       <workItem from="1525770633270" duration="140000" />
       <workItem from="1525771206337" duration="4105000" />
       <workItem from="1525780860248" duration="729000" />
+      <workItem from="1525783596534" duration="600000" />
+      <workItem from="1525784200318" duration="99000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12911000" />
+    <option name="totallyTimeSpent" value="13610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="106" y="0" width="1173" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Regex Tester" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23535565" />
-      <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18165627" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3294979" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23535565" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18699911" />
       <window_info anchor="right" id="ReST Console" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="right" id="JSON Utils" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -254,6 +289,47 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="e#24#36#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#24#36#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="92" column="7" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -360,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/acceptance.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -393,27 +462,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/twoSessions_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#24#36#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/steps.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
           <caret line="161" column="15" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1288">
-          <caret line="92" column="7" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -459,10 +511,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="92" column="7" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/dvt.code/CodeceptJS/Testing/code/CodeceptJS-Testing/20170507-testing-sessions/tests/twoSessions_Michael_test.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="322">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="65" column="36" lean-forward="true" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+          <folding>
+            <element signature="e#24#36#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -56,8 +56,6 @@ Scenario('two session - google & msn', async (I) => {
 	tmp = parseInt(tmp);
 	nrGSearchResultsTotal = tmp;
 
-	console.log("Google: " + nrGSearchResults + " search results on the page");
-	console.log("Google: " + nrGSearchResultsTotal + " total search results");
 
 	// second session: yahoo
 	await session('secondSession', async () => {
@@ -72,10 +70,12 @@ Scenario('two session - google & msn', async (I) => {
 		I.seeElement( locMSearchItem );
 		nrMSearchResults = await I.grabNumberOfVisibleElements( locMSearchItem );
 		nrMSearchResultsTotal = await I.grabTextFrom(locMResultsStats);
-
-		console.log("MSN   : " + nrMSearchResults + " search results on the page");
-		console.log("MSN   : " + nrMSearchResultsTotal + " total search results");
-
 	});
+
+	console.log("Google: " + nrGSearchResults + " search results on the page");
+	console.log("Google: " + nrGSearchResultsTotal + " total search results");
+
+	console.log("MSN   : " + nrMSearchResults + " search results on the page");
+	console.log("MSN   : " + nrMSearchResultsTotal + " total search results");
 
 });
