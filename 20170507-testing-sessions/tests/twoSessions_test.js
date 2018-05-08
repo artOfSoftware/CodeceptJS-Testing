@@ -45,7 +45,7 @@ Scenario('two session - google & msn', async (I) => {
 	I.click( locGSearchButton2 );
 	I.seeElement( locGSearchItem );
 	nrGSearchResults = await I.grabNumberOfVisibleElements( locGSearchItem );
-	pause();
+	//pause();
 
 	tmp = await I.grabTextFrom(locGResultsStats);
 	//tmp = tmp.match( /About ([\d,]?) results.*/ );
