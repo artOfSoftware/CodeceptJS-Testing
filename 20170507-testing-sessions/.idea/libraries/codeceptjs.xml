@@ -1,13 +1,6 @@
 <component name="libraryTable">
   <library name="codeceptjs" type="javaScript">
-    <properties>
-      <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/node_modules/codeceptjs" />
-      </sourceFilesUrls>
-    </properties>
-    <CLASSES>
-      <root url="file://$PROJECT_DIR$/node_modules/codeceptjs" />
-    </CLASSES>
+    <CLASSES />
     <SOURCES />
   </library>
 </component>

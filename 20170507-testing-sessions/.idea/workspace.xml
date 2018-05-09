@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6323ad42-de0e-410e-908f-796f04ea05f7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/CodeceptJS Test Planning 1.2.0 Release.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/codeceptjs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/codeceptjs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/webdriverio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/webdriverio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/StatefulChatPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/StatefulChatPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/twoSessions1_test.js_" beforeDir="false" afterPath="$PROJECT_DIR$/tests/twoSessions1_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/twoSessions2_test.js_" beforeDir="false" afterPath="$PROJECT_DIR$/tests/twoSessions2_test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/twoSessionsChatPO_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/twoSessionsChatPO_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/twoSessionsChat_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/twoSessionsChat_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/twoSessions_Michael_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/twoSessionsMichael_test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -539,71 +547,49 @@
           <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
-                  <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+                <state relative-caret-position="14">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="codecept.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/codecept.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="codecept.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/codecept.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="994">
-                  <caret line="68" selection-start-line="68" selection-end-line="68" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="session.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/session.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="338">
-                  <caret line="72" selection-start-line="72" selection-end-line="72" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Protractor.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/Protractor.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="14">
-                  <caret line="332" selection-start-line="332" selection-end-line="332" />
-                </state>
-              </provider>
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file leaf-file-name="twoSessionsChat_test.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/twoSessionsChat_test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+                <state relative-caret-position="406">
+                  <caret line="34" selection-start-line="34" selection-end-line="34" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="twoSessionsChatPO_test.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="twoSessionsChatPO_test.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/twoSessionsChatPO_test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="602">
-                  <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+                <state relative-caret-position="224">
+                  <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="steps.d.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/steps.d.ts">
+          <file leaf-file-name="twoSessions2_test.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="378">
-                  <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+                <state>
+                  <caret column="15" selection-start-column="15" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="twoSessions1_test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/twoSessions1_test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="15" selection-start-column="15" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -611,12 +597,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="StatefulChatPage.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/StatefulChatPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="505">
-                  <caret line="75" selection-start-line="75" selection-end-line="75" />
+                <state relative-caret-position="123">
+                  <caret line="61" selection-start-line="61" selection-end-line="61" />
                 </state>
               </provider>
             </entry>
@@ -645,7 +631,7 @@
       <find>now</find>
       <find>=</find>
       <find>;</find>
-      <find />
+      <find>locGSearchResultsItem</find>
     </findStrings>
     <replaceStrings>
       <replace>-</replace>
@@ -669,16 +655,19 @@
         <option value="$PROJECT_DIR$/tests/google1_test.js" />
         <option value="$PROJECT_DIR$/index2.js" />
         <option value="$PROJECT_DIR$/tests/twoSessions_test.js" />
-        <option value="$PROJECT_DIR$/tests/twoSessions1_test.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="D:/dvt.code/CodeceptJS/Testing/code/CodeceptJS-Testing/README.md" />
         <option value="$PROJECT_DIR$/tests/twoSessions_Michael_test.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/pages/StatefulChat.js" />
         <option value="$PROJECT_DIR$/tests/twoSessionsChat_test.js" />
         <option value="$PROJECT_DIR$/codecept.json" />
-        <option value="$PROJECT_DIR$/tests/twoSessionsChatPO_test.js" />
         <option value="$PROJECT_DIR$/pages/StatefulChatPage.js" />
+        <option value="$PROJECT_DIR$/tests/tmp.js" />
+        <option value="$PROJECT_DIR$/tests/twoSessionsChatPO_test.js" />
+        <option value="$PROJECT_DIR$/docs/CodeceptJS Test Planning 1.2.0 Release.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/tests/twoSessions1_test.js" />
+        <option value="$PROJECT_DIR$/tests/twoSessions2_test.js" />
       </list>
     </option>
   </component>
@@ -708,7 +697,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="106" />
+    <option name="x" value="145" />
+    <option name="y" value="3" />
     <option name="width" value="1173" />
     <option name="height" value="1080" />
   </component>
@@ -741,16 +731,17 @@
             <path>
               <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
               <item name="20170507-testing-sessions" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20170507-testing-sessions" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
               <item name="20170507-testing-sessions" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -804,7 +795,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bash.cc run twoSessionsChatPO_test">
+  <component name="RunManager" selected="Bash.cc run twoSessions1_test">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="C:\dvt\Git\usr\bin\bash.exe" />
@@ -823,13 +814,31 @@
       <option name="PARAMETERS" value="run" />
       <module name="" />
     </configuration>
-    <configuration name="cc run twoSessions1_test" type="BashConfigurationType" factoryName="Bash">
+    <configuration name="cc run twoSessions1_test" type="BashConfigurationType" factoryName="Bash" editBeforeRun="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="C:\dvt\Git\usr\bin\bash.exe" />
       <option name="WORKING_DIRECTORY" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions\bin\cc" />
       <option name="PARAMETERS" value="run twoSessions1_test" />
+      <module name="" />
+    </configuration>
+    <configuration name="cc run twoSessions2_test" type="BashConfigurationType" factoryName="Bash" editBeforeRun="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="C:\dvt\Git\usr\bin\bash.exe" />
+      <option name="WORKING_DIRECTORY" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions\bin\cc" />
+      <option name="PARAMETERS" value="run twoSessions2_test --verbose" />
+      <module name="" />
+    </configuration>
+    <configuration name="cc run twoSessionsChatMichael_test" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="C:\dvt\Git\usr\bin\bash.exe" />
+      <option name="WORKING_DIRECTORY" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions\bin\cc" />
+      <option name="PARAMETERS" value="run twoSessionsMichael_test" />
       <module name="" />
     </configuration>
     <configuration name="cc run twoSessionsChatPO_test" type="BashConfigurationType" factoryName="Bash">
@@ -839,15 +848,6 @@
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions\bin\cc" />
       <option name="PARAMETERS" value="run twoSessionsChatPO_test" />
-      <module name="" />
-    </configuration>
-    <configuration name="cc run twoSessionsChat_Michael_test" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="C:\dvt\Git\usr\bin\bash.exe" />
-      <option name="WORKING_DIRECTORY" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions\bin\cc" />
-      <option name="PARAMETERS" value="run twoSessions_Michael_test" />
       <module name="" />
     </configuration>
     <configuration name="cc run twoSessionsChat_test (verbose)" type="BashConfigurationType" factoryName="Bash">
@@ -890,10 +890,11 @@
       <item itemvalue="Bash.cc run" />
       <item itemvalue="Bash.cc run (1)" />
       <item itemvalue="Bash.cc run twoSessions1_test" />
+      <item itemvalue="Bash.cc run twoSessions2_test" />
       <item itemvalue="Bash.cc run twoSessionsChat_test" />
       <item itemvalue="Bash.cc run twoSessionsChatPO_test" />
       <item itemvalue="Bash.cc run twoSessionsChat_test (verbose)" />
-      <item itemvalue="Bash.cc run twoSessionsChat_Michael_test" />
+      <item itemvalue="Bash.cc run twoSessionsChatMichael_test" />
       <item itemvalue="Node.js.index.js" />
     </list>
   </component>
@@ -919,6 +920,8 @@
       <workItem from="1525815966853" duration="2729000" />
       <workItem from="1525836769282" duration="277000" />
       <workItem from="1525837085931" duration="6491000" />
+      <workItem from="1525869961422" duration="4345000" />
+      <workItem from="1525874677291" duration="1479000" />
     </task>
     <task id="LOCAL-00001" summary="changed test back to have an example for Michael">
       <created>1525784334621</created>
@@ -962,11 +965,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525845276360</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding new scenarios">
+      <created>1525870021587</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1525870021587</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27921000" />
+    <option name="totallyTimeSpent" value="33745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -978,29 +988,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="106" y="0" width="1173" height="1080" extended-state="0" />
+    <frame x="145" y="3" width="1173" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" side_tool="true" weight="0.3294979" />
       <window_info anchor="right" id="Regex Tester" order="5" weight="0.32947463" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5013357" side_tool="true" weight="0.23535565" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5022262" side_tool="true" weight="0.43619248" />
       <window_info anchor="bottom" id="Version Control" order="7" side_tool="true" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49955475" weight="0.33158997" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4986643" weight="0.43672198" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49955475" weight="0.333682" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49777383" weight="0.43619248" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.3294979" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895397" visible="true" weight="0.18610863" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895397" visible="true" weight="0.19145148" />
       <window_info anchor="right" id="ReST Console" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.111199364" />
       <window_info anchor="right" id="Docker" order="6" weight="0.32947463" />
       <window_info anchor="right" id="JSON Utils" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
       <window_info id="Structure" order="1" sideWeight="0.501046" side_tool="true" weight="0.18076581" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.111199364" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1018,6 +1029,100 @@
     <option name="LAST_COMMIT_MESSAGE" value="adding new scenarios" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codecept.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessionsChat_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessionsChatPO_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/StatefulChatPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codecept.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/codecept.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/Protractor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4648">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessionsChat_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steps.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessionsChatPO_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/StatefulChatPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -1109,7 +1214,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/twoSessions_Michael_test.js">
+    <entry file="file://$PROJECT_DIR$/tests/twoSessionsMichael_test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1526">
           <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
@@ -1256,8 +1361,6 @@
       </provider>
     </entry>
     <entry file="file://D:/dvt.code/CodeceptJS/Testing/code/CodeceptJS-Testing/20170507-testing-sessions/tests/twoSessions_Michael_test.js" />
-    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js" />
-    <entry file="file://$PROJECT_DIR$/tests/twoSessions1_test.js" />
     <entry file="file://$PROJECT_DIR$/bin/path.env">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1291,45 +1394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/RoboFile.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/.markdownlint.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/.hound.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/runner/run_multiple_test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/support/setup.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/support/TestHelper.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/container_test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/yahoo_test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/github_test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/custom_steps.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/codecept.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/absolutenet_test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1344,33 +1408,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/acceptance/session_test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/recorder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/runner/within_test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/mocha.opts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/typings/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/.dockerignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/jsconfig.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/mkdocs.yml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1395,14 +1438,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/session.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
+        <state relative-caret-position="1008">
           <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/translations/zh-TW.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/codecept.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="994">
+        <state relative-caret-position="14">
           <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
@@ -1414,52 +1464,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/twoSessionsChat_test.js">
+    <entry file="file://$PROJECT_DIR$/tests/tmp.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/acceptance/session_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/translations/zh-TW.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codecept.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steps.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        <state relative-caret-position="700">
+          <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/twoSessionsChatPO_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="224">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/CodeceptJS Test Planning 1.2.0 Release.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codecept.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessionsChat_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/dvt.code/CodeceptJS/Testing/code/CodeceptJS-Testing/20170507-testing-sessions/tests/twoSessions2_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/StatefulChatPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="123">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steps.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions1_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>

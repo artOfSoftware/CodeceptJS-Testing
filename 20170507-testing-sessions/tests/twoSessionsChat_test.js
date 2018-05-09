@@ -53,8 +53,8 @@ Scenario('two session - stateful app', async (I) => {
 	//	I.switchToNextTab();
 	//	I.wait(1);
 	//	//pause();
-	//	I.seeElement( locMSearchItem );
-	//	nrMSearchResults = await I.grabNumberOfVisibleElements( locMSearchItem );
+	//	I.seeElement( locMSearchResultsItem );
+	//	nrMSearchResults = await I.grabNumberOfVisibleElements( locMSearchResultsItem );
 	});
 
 	//I.wait(10);

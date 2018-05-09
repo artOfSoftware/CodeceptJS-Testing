@@ -1,4 +1,4 @@
-// twoSessions_test.js
+// twoSessions1_test.js
 
 /// for IDE:
 /// <reference path="./steps.d.ts" />
@@ -16,8 +16,8 @@ const locMSearchButton = "button#sb_form_go";
 const queryG 		   = "google voice";
 const queryM 		   = "microsoft surface";
 
-const locGSearchItem   = "div.rc";
-const locMSearchItem   = "li.b_algo";
+const locGSearchResultsItem   = "div.rc";
+const locMSearchResultsItem   = "li.b_algo";
 
 
 // TESTS
@@ -33,11 +33,11 @@ Scenario('two session - google & msn', async (I) => {
 	I.fillField( locGInputField, queryG );
 	I.wait(1);
 	I.click( locGSearchButton2 );
-	I.seeElement( locGSearchItem );
-	nrGSearchResults = await I.grabNumberOfVisibleElements( locGSearchItem );
+	I.seeElement( locGSearchResultsItem );
+	nrGSearchResults = await I.grabNumberOfVisibleElements( locGSearchResultsItem );
 
-	// second session: yahoo
-	await session('secondSession', async () => {
+	// second session: MSN
+	nrMSearchResults = await session('secondSession', async () => {
 
 		I.amOnPage( urlM );
 		I.seeElement( locMInputField );
@@ -45,9 +45,8 @@ Scenario('two session - google & msn', async (I) => {
 		I.click( locMSearchButton );
 		I.switchToNextTab();
 		I.wait(1);
-		//pause();
-		I.seeElement( locMSearchItem );
-		nrMSearchResults = await I.grabNumberOfVisibleElements( locMSearchItem );
+		I.seeElement( locMSearchResultsItem );
+		return await I.grabNumberOfVisibleElements( locMSearchResultsItem );
 	});
 
 	console.log("Google: " + nrGSearchResults + " search results on the page");
