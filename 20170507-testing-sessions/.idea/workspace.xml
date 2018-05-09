@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6323ad42-de0e-410e-908f-796f04ea05f7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/StatefulChatPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/twoSessionsChatPO_test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/two_session_-_google_&amp;_msn.failed.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/two_session_-_google_&amp;_msn.failed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codecept.json" beforeDir="false" afterPath="$PROJECT_DIR$/codecept.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/twoSessionsChat_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/twoSessionsChat_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/twoSessions_Michael_test.js_" beforeDir="false" afterPath="$PROJECT_DIR$/tests/twoSessions_Michael_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,15 +24,585 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CodeceptJS from git">
+      <favorite_root url="codeceptjs" type="namedLibrary" klass="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode">
+        <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/bin" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/bin/codecept.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/data" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/data/table.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/data/context.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/assert" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/assert/empty.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/assert/equal.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/assert/error.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/assert/truth.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/assert/throws.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/assert/include.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/errors" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/errors/ConnectionRefused.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/extras" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/extras/Popup.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/extras/Console.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/REST.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/Appium.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/Nightmare.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/Puppeteer.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/clientscripts" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/clientscripts/nightmare.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/FileSystem.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/Protractor.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/Mochawesome.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/WebDriverIO.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/ApiDataFactory.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/SeleniumWebdriver.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/command" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/command/run.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/command/init.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/command/list.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/command/utils.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/command/generate.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/command/run-multiple" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/command/run-multiple/run.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/command/run-multiple/chunk.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/command/run-multiple/collection.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/command/definitions.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/command/interactive.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/command/run-multiple.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/step.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/actor.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/event.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/hooks.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/index.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/listener" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/listener/exit.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/listener/steps.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/listener/trace.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/listener/config.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/listener/helpers.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/pause.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/reporter" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/reporter/cli.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/utils.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/assert.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/config.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/output.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/parser.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/within.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/interfaces" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/interfaces/bdd.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/interfaces/featureConfig.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/interfaces/scenarioConfig.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/locator.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/session.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/codecept.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/recorder.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/scenario.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/container.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/colorUtils.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/translation.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/mochaFactory.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/api" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/api/config.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/api/helper.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/api/output.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/api/codecept.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/api/recorder.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/api/container.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/see.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/wait.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/click.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/dontSee.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/amOnPage.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/pressKey.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/scrollTo.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/switchTo.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/fillField.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/grabTitle.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/seeCookie.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/setCookie.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/waitInUrl.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/waitUntil.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/attachFile.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/clearField.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/grabCookie.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/grabSource.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/rightClick.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/seeElement.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/seeInField.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/seeInTitle.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/waitToHide.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/appendField.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/checkOption.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/clearCookie.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/doubleClick.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/dragAndDrop.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/refreshPage.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/seeInSource.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/waitForText.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/grabHTMLFrom.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/grabTextFrom.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/moveCursorTo.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/resizeWindow.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/selectOption.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/waitForValue.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/dontSeeCookie.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/executeScript.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/grabValueFrom.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/uncheckOption.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/waitUrlEquals.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/dontSeeElement.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/dontSeeInField.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/dontSeeInTitle.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/grabCurrentUrl.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/saveScreenshot.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/waitForElement.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/waitForEnabled.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/waitForVisible.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/dontSeeInSource.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/grabBrowserLogs.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/scrollPageToTop.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/seeElementInDOM.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/seeInCurrentUrl.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/waitForDetached.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/waitForInvisible.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/grabAttributeFrom.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/executeAsyncScript.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/scrollPageToBottom.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/dontSeeElementInDOM.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/dontSeeInCurrentUrl.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/grabCssPropertyFrom.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/seeCurrentUrlEquals.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/grabNumberOfOpenTabs.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/seeCheckboxIsChecked.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/grabPageScrollPosition.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/dontSeeCurrentUrlEquals.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/seeAttributesOnElements.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/dontSeeCheckboxIsChecked.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/seeCssPropertiesOnElements.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/seeNumberOfVisibleElements.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/grabNumberOfVisibleElements.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/webapi/waitNumberOfVisibleElements.mustache" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/data.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/helpers" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/helpers/REST.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/helpers/Appium.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/helpers/Nightmare.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/helpers/Puppeteer.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/helpers/FileSystem.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/helpers/Protractor.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/helpers/Mochawesome.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/helpers/WebDriverIO.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/helpers/ApiDataFactory.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/helpers/SeleniumWebdriver.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/hooks.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/index.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/basics.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/docker.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/mobile.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/angular.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/helpers.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/reports.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/advanced.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/commands.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/locators.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/nightmare.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/puppeteer.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/acceptance.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/quickstart.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/pageobjects.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/translation.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/installation.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/configuration.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/.env" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/file.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/empty.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/field.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/hover.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/image.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/index.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/popup.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/radio.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/button.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/hidden.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/resize.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/scroll.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/select.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/bug1467.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/bug1535.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/bug1585.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/bug1598.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/bug1637.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/complex.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/checkbox.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example1.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example2.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example3.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example4.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example5.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example6.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example7.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example8.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example9.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/textarea.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example10.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example11.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example12.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example13.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example14.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example15.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example16.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example17.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/example20.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/unchecked.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/css_colors.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/empty_fill.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/wait_value.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/doubleclick.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/field_values.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/wait_element.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/wait_enabled.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/wait_visible.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/wait_detached.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/checkbox_array.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/wait_clickable.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/wait_invisible.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/select_multiple.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/select_onchange.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/form_with_buttons.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/names-sq-brackets.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/relative_siteroot.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/wait_num_elements.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/select_two_submits.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/submitform_multiple.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/submit_adjacentforms.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/form/submitform_ampersands.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/info.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/index.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/login.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/iframe.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/search.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/cookies.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/dynamic.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/spinner.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/timeout.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/facebook.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/register.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/redirect2.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/content_type.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/external_url.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/content_type2.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/iframe_nested.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/redirect_self.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/redirect_params.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/view/redirect_interval.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/data.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/glue.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/index.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/avatar.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/app/controllers.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/I.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/rest" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/rest/db.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/rest/headers.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/rest/posts_factory.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/mobile" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/mobile/selendroid-test-app-0.17.0.apk" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/output" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/output/.gitkeep" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/output/.gitignore" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/hooks.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/config.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/fs_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/ddt_test.ddt.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/fs_test.glob.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/retry_helper.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/eventHandlers.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/within_helper.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/bootstrap.sync.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.ddt.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.hooks.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/fs_test_failed.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/session_helper.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/bootstrap.async.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.glob.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.grep.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/base_test_within.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.flaky.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.retry.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/flaky_test.flaky.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/flaky_test.retry.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/base_test_session.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.failed.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.within.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.session.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/grep_test.multiple.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.multiple.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.testevents.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.testhooks.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/browser_test.multiple.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.testscenario.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.bootstrap.obj.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/testhooks_test.testhooks.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.bootstrap.sync.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/testevents_test.testevents.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/tests_test_override.multiple.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/testscenario_test.testscenario.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/codecept.testhooks.different.order.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/sandbox/testhooks_test.testhooks.different.order.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/helper.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/dummy_page.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/fs_sample.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/data/fake_driver.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/rest" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/rest/REST_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/rest/ApiDataFactory_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/data" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/data/table_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/assert" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/assert/empty_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/assert/equal_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/assert/include_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/helper" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/helper/FileSystem_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/helper/element_not_found_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/actor_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/steps_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/utils_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/assert_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/output_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/parser_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/locator_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/recorder_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/scenario_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/container_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/helper" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/helper/webapi.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/helper/Appium_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/helper/AppiumWeb_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/helper/Nightmare_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/helper/Puppeteer_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/helper/Protractor_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/helper/WebDriverIO_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/helper/ProtractorWeb_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/runner" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/runner/list_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/runner/within_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/runner/session_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/runner/codecept_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/runner/interface_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/runner/run_multiple_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/support" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/support/setup.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/support/TestHelper.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/acceptance" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/acceptance/config_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/acceptance/within_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/acceptance/1_event_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/acceptance/session_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/acceptance/codecept.Nightmare.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/acceptance/codecept.Puppeteer.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/acceptance/codecept.Protractor.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/acceptance/codecept.WebDriverIO.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/mocha.opts" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/.eslintrc.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/test/docker-compose.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docker" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docker/run.sh" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docker/help.sh" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docker/README.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/docker/entrypoint" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/LICENSE" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/typings" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/typings/index.d.ts" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/pages" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/pages/Smth.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/pages/Admin.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/pages/Login.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/fragments" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/fragments/Signin.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/bootstrap.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/codecept.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/yahoo_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/github_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/user_helper.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/custom_steps.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/absolutenet_test.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/codecept.conf.example.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/.circleci" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/.circleci/test.sh" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/.circleci/build.sh" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/.circleci/config.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/README.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/.gitignore" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/.hound.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/Dockerfile" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/mkdocs.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/.travis.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/CHANGELOG.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules/.bin" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules/.bin/mocha" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules/.bin/_mocha" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules/.bin/mkdirp" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules/.bin/mocha.cmd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules/.bin/_mocha.cmd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules/.bin/mkdirp.cmd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules/glob" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules/glob/glob.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules/glob/LICENSE" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules/glob/sync.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules/glob/common.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules/glob/README.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/node_modules/glob/package.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/package.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/RoboFile.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/translations" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/translations/index.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/translations/it-IT.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/translations/pl-PL.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/translations/pt-BR.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/translations/ru-RU.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/translations/zh-CN.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/translations/zh-TW.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/.dockerignore" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/.editorconfig" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/jsconfig.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/tsconfig.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/.eslintrc.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/.gitattributes" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/CONTRIBUTING.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/ISSUE_TEMPLATE.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/.markdownlint.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/node_modules/codeceptjs/CODE_OF_CONDUCT.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+      </favorite_root>
+    </favorites_list>
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.38931298">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+                <state relative-caret-position="168">
+                  <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="codecept.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/codecept.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="140">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="codecept.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/codecept.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="994">
+                  <caret line="68" selection-start-line="68" selection-end-line="68" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="session.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/session.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="338">
+                  <caret line="72" selection-start-line="72" selection-end-line="72" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Protractor.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/Protractor.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="14">
+                  <caret line="332" selection-start-line="332" selection-end-line="332" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="twoSessionsChat_test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/twoSessionsChat_test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="476">
+                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="twoSessionsChatPO_test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/twoSessionsChatPO_test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="112">
+                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
                 </state>
               </provider>
             </entry>
@@ -34,33 +610,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="twoSessions2_test.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js">
+        <leaf>
+          <file leaf-file-name="StatefulChatPage.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/StatefulChatPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1134">
-                  <caret line="81" selection-start-line="81" selection-end-line="81" />
-                  <folding>
-                    <element signature="e#24#36#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="twoSessions1_test.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/twoSessions1_test.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="twoSessionsChat_test.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/twoSessionsChat_test.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="16" column="84" lean-forward="true" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+                <state relative-caret-position="224">
+                  <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
                 </state>
               </provider>
             </entry>
@@ -84,9 +639,18 @@
       <find>session</find>
       <find>grab</find>
       <find>chai</find>
+      <find>start</find>
+      <find>config</find>
+      <find>now</find>
+      <find>=</find>
+      <find>;</find>
+      <find />
     </findStrings>
     <replaceStrings>
       <replace>-</replace>
+      <replace>:</replace>
+      <replace>,</replace>
+      <replace>\t</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\dvt.code\CodeceptJS\code\20180507-testing-sessions\node_modules\codeceptjs</dir>
@@ -101,14 +665,19 @@
         <option value="$PROJECT_DIR$/bin/cc.sh" />
         <option value="$PROJECT_DIR$/bin/wdm" />
         <option value="$PROJECT_DIR$/bin/path.env" />
-        <option value="$PROJECT_DIR$/codecept.json" />
         <option value="$PROJECT_DIR$/tests/google1_test.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/index2.js" />
         <option value="$PROJECT_DIR$/tests/twoSessions_test.js" />
         <option value="$PROJECT_DIR$/tests/twoSessions1_test.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="D:/dvt.code/CodeceptJS/Testing/code/CodeceptJS-Testing/README.md" />
+        <option value="$PROJECT_DIR$/tests/twoSessions_Michael_test.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/pages/StatefulChat.js" />
         <option value="$PROJECT_DIR$/tests/twoSessionsChat_test.js" />
+        <option value="$PROJECT_DIR$/pages/StatefulChatPage.js" />
+        <option value="$PROJECT_DIR$/tests/twoSessionsChatPO_test.js" />
+        <option value="$PROJECT_DIR$/codecept.json" />
       </list>
     </option>
   </component>
@@ -150,6 +719,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="20180507-testing-sessions" type="cbb8eebc:String" user="20180507-testing-sessions" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,23 +740,80 @@
             <path>
               <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
               <item name="20170507-testing-sessions" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
               <item name="20170507-testing-sessions" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="20180507-testing-sessions" type="cbb8eebc:String" user="20180507-testing-sessions" />
+              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
+              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
+              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
+              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
+              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="acceptance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
+              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
+              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
+              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
+              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
+              <item name="typings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,8 +826,10 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+    <property name="javascript.karma.karma_node_package_dir" value="" />
     <property name="javascript.nodejs.core.library.configured.version" value="9.11.1" />
-    <property name="last_opened_file_path" value="D:/dvt.code/CodeceptJS/Testing/code/CodeceptJS-Testing/20170507-testing-sessions/node_modules/codeceptjs/lib/interfaces/bdd.js" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="D:/dvt.code/CodeceptJS/Testing/code/CodeceptJS-Testing/README.md" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -198,19 +837,22 @@
     <property name="node.js.selected.package.eslint" value="" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
+    <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/dvt/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dvt.code\CodeceptJS\20180507-testing-sessions\doc" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions\tests" />
       <recent name="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions" />
       <recent name="C:\dvt.code\CodeceptJS\code\20180507-testing-sessions\bin" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\dvt.code\CodeceptJS\20180507-testing-sessions\doc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -225,7 +867,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bash.cc run twoSessionsChat_test">
+  <component name="RunManager" selected="Bash.cc run twoSessionsChatPO_test">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="C:\dvt\Git\usr\bin\bash.exe" />
@@ -253,6 +895,33 @@
       <option name="PARAMETERS" value="run twoSessions1_test" />
       <module name="" />
     </configuration>
+    <configuration name="cc run twoSessionsChatPO_test" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="C:\dvt\Git\usr\bin\bash.exe" />
+      <option name="WORKING_DIRECTORY" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions\bin\cc" />
+      <option name="PARAMETERS" value="run twoSessionsChatPO_test" />
+      <module name="" />
+    </configuration>
+    <configuration name="cc run twoSessionsChat_Michael_test" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="C:\dvt\Git\usr\bin\bash.exe" />
+      <option name="WORKING_DIRECTORY" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions\bin\cc" />
+      <option name="PARAMETERS" value="run twoSessions_Michael_test" />
+      <module name="" />
+    </configuration>
+    <configuration name="cc run twoSessionsChat_test (verbose)" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="C:\dvt\Git\usr\bin\bash.exe" />
+      <option name="WORKING_DIRECTORY" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\dvt.code\CodeceptJS\Testing\code\CodeceptJS-Testing\20170507-testing-sessions\bin\cc" />
+      <option name="PARAMETERS" value="run twoSessionsChat_test --verbose" />
+      <module name="" />
+    </configuration>
     <configuration name="cc run twoSessionsChat_test" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="C:\dvt\Git\usr\bin\bash.exe" />
@@ -271,11 +940,24 @@
       <option name="PARAMETERS" value="run" />
       <module name="" />
     </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="D:/dvt.code/CodeceptJS/Testing/code/CodeceptJS-Testing/20170507-testing-sessions/index.js" working-dir="$PROJECT_DIR$" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <list>
       <item itemvalue="Bash.cc run" />
       <item itemvalue="Bash.cc run (1)" />
       <item itemvalue="Bash.cc run twoSessions1_test" />
       <item itemvalue="Bash.cc run twoSessionsChat_test" />
+      <item itemvalue="Bash.cc run twoSessionsChatPO_test" />
+      <item itemvalue="Bash.cc run twoSessionsChat_test (verbose)" />
+      <item itemvalue="Bash.cc run twoSessionsChat_Michael_test" />
+      <item itemvalue="Node.js.index.js" />
     </list>
   </component>
   <component name="TaskManager">
@@ -294,6 +976,12 @@
       <workItem from="1525780860248" duration="729000" />
       <workItem from="1525783596534" duration="600000" />
       <workItem from="1525784200318" duration="2193000" />
+      <workItem from="1525786815325" duration="286000" />
+      <workItem from="1525788052417" duration="272000" />
+      <workItem from="1525790766877" duration="2162000" />
+      <workItem from="1525815966853" duration="2729000" />
+      <workItem from="1525836769282" duration="277000" />
+      <workItem from="1525837085931" duration="5218000" />
     </task>
     <task id="LOCAL-00001" summary="changed test back to have an example for Michael">
       <created>1525784334621</created>
@@ -323,30 +1011,46 @@
       <option name="project" value="LOCAL" />
       <updated>1525785759299</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding new scenarios">
+      <created>1525786872703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525786872704</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15704000" />
+    <option name="totallyTimeSpent" value="26648000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="106" y="0" width="1173" height="1080" extended-state="0" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Regex Tester" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013357" side_tool="true" weight="0.23535565" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49955475" weight="0.3294979" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4986643" weight="0.23535565" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18699911" />
+      <window_info anchor="bottom" id="TODO" order="6" side_tool="true" weight="0.3294979" />
+      <window_info anchor="right" id="Regex Tester" order="5" weight="0.32947463" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5013357" side_tool="true" weight="0.23535565" />
+      <window_info anchor="bottom" id="Version Control" order="7" side_tool="true" weight="0.3294979" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49955475" visible="true" weight="0.33158997" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4986643" weight="0.43672198" />
+      <window_info anchor="bottom" id="TypeScript" order="10" weight="0.3294979" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895397" visible="true" weight="0.18610863" />
       <window_info anchor="right" id="ReST Console" order="3" />
-      <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="right" id="JSON Utils" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.111199364" />
+      <window_info anchor="right" id="Docker" order="6" weight="0.32947463" />
+      <window_info anchor="right" id="JSON Utils" order="4" />
+      <window_info id="Structure" order="1" sideWeight="0.501046" side_tool="true" weight="0.18076581" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -366,9 +1070,138 @@
     <MESSAGE value="removed pause" />
     <MESSAGE value="simplified scenario twoSessions1_test.js" />
     <MESSAGE value="adding chat scenario" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding chat scenario" />
+    <MESSAGE value="adding new scenarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding new scenarios" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/codecept.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="60" column="75" selection-start-line="60" selection-start-column="75" selection-end-line="60" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/recorder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/Protractor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4648">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessionsChat_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="66" column="81" selection-start-line="66" selection-start-column="81" selection-end-line="66" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codecept.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/codecept.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="60" column="75" selection-start-line="60" selection-start-column="75" selection-end-line="60" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/recorder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/Protractor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4648">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codecept.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessionsChat_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="60" column="15" lean-forward="true" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions_Michael_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1526">
+          <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js" />
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions1_test.js" />
+    <entry file="file://$PROJECT_DIR$/tests/twoSessionsChat_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="84" lean-forward="true" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -376,16 +1209,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding>
-            <element signature="e#24#36#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -393,16 +1217,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#24#36#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1288">
@@ -424,16 +1239,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding>
-            <element signature="e#24#36#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -448,13 +1254,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -469,13 +1269,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/acceptance.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -488,34 +1282,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js" />
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js" />
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/docs/acceptance.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -528,52 +1297,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/session.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/path.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steps.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="161" column="15" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/9.11.1/core-modules/child_process.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codecept.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="6" selection-start-column="1" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -584,17 +1311,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/codecept.js">
+    <entry file="file://D:/dvt.code/CodeceptJS/Testing/code/CodeceptJS-Testing/20170507-testing-sessions/tests/twoSessions_Michael_test.js" />
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js" />
+    <entry file="file://$PROJECT_DIR$/tests/twoSessions1_test.js" />
+    <entry file="file://$PROJECT_DIR$/bin/path.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1750">
-          <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="92" column="7" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="7" />
+        <state>
+          <caret selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -605,38 +1328,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/dvt.code/CodeceptJS/Testing/code/CodeceptJS-Testing/20170507-testing-sessions/tests/twoSessions_Michael_test.js" />
-    <entry file="file://$PROJECT_DIR$/tests/twoSessions2_test.js">
+    <entry file="file://$PROJECT_DIR$/index2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="e#24#36#0" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/twoSessions1_test.js">
+    <entry file="file://D:/dvt.code/CodeceptJS/Testing/code/CodeceptJS-Testing/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="336">
+            <caret line="20" selection-start-line="20" selection-end-line="20" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/RoboFile.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/.markdownlint.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/.hound.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/runner/run_multiple_test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/support/setup.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/support/TestHelper.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/unit/container_test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/yahoo_test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/github_test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/custom_steps.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/codecept.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/examples/absolutenet_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="154">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/runner/session_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/acceptance/session_test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/recorder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/runner/within_test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/test/mocha.opts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/typings/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/.dockerignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/jsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/mkdocs.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steps.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/moment/src/moment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/moment/moment.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="694" column="19" selection-start-line="694" selection-start-column="19" selection-end-line="694" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/codecept.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="994">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/lib/helper/Protractor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessionsChat_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessionsChatPO_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="168">
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/dvt.code/CodeceptJS/Testing/code/CodeceptJS-Testing/20170507-testing-sessions/node_modules/codeceptjs/lib/interfaces/bdd.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/twoSessionsChat_test.js">
+    <entry file="file://$PROJECT_DIR$/codecept.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="84" lean-forward="true" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+        <state relative-caret-position="140">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/StatefulChatPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -655,5 +1527,15 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="regexState">
+    <option name="map">
+      <map>
+        <entry key="flags" value="0" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="(19||20)\d\d([- /.])(0[1-9]||1[012])\2(0[1-9]||[12][0-9]||3[01])" />
+        <entry key="text" value="1900-01-01 2007/08/13 1900.01.01 1900 01 01 1900-01.01 1900 13 01 1900 02 31" />
+      </map>
+    </option>
   </component>
 </project>

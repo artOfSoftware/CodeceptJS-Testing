@@ -1,18 +1,31 @@
 {
-  "name": "CodeceptJS-QA-0180507-testing-sessions",
+	"name": "CodeceptJS-QA-0180507-testing-sessions",
 
-  "tests": "./tests/*.js",
-  "timeout": 10000,
-  "output": "./output",
+	"output": "./output",
+	"tests": "./tests/*.js",
+	"timeout": 10000,
 
-  "helpers": {
-    "WebDriverIO": {
-      "url": "http:///",
-      "browser": "chrome"
-    }
-  },
+	"helpers": {
+		"WebDriverIO": {
+			"url": "http:///",
+			"browser": "chrome",
+			"coloredLogs": true,
+			"desiredCapabilities": {
+				"chromeOptions": {
+					"args": [
+						"--window-size=1000,800"
+					]
+				}
+			}
+		}
+	},
 
-  "include": {},
-  "bootstrap": false,
-  "mocha": {}
+	"include": {
+		"statefulChatPage": "./pages/StatefulChatPage.js"
+	},
+
+	"mocha": {},
+	"bootstrap": false,
+	"teardown": null,
+	"hooks": []
 }

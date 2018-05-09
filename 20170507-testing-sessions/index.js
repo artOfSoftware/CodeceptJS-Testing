@@ -8,9 +8,9 @@ const { exec } = require('child_process');
  * @param {String} cmd
  * @return {Object} { stdout: String, stderr: String }
  */
-async function sh(cmd) {
+async function sh(cmd, args) {
 	return new Promise(function (resolve, reject) {
-		exec(cmd, (err, stdout, stderr) => {
+		exec(cmd, args, (err, stdout, stderr) => {
 			if (err) {
 				reject(err);
 			} else {
@@ -21,9 +21,9 @@ async function sh(cmd) {
 }
 
 async function main() {
-	let { stdout } = await sh('./bin/cc run');
+	let { stdout } = await sh('./bin/cc', 'run');
 	for (let line of stdout.split('\n')) {
-		console.log(`ls: ${line}`);
+		console.log(`output: ${line}`);
 	}
 }
 

@@ -1,6 +1,5 @@
 // twoSessionsChat_test.js
 
-/// for IDE:
 /// <reference path="./steps.d.ts" />
 
 const moment = require("moment");
@@ -21,10 +20,10 @@ const locConversationItemField3 = "#MainContent_tableConvHist tr td:nth-of-type(
 // TESTS
 Feature('CodeceptJS sessions testing 02');
 
-Scenario('two session - chat simple stateful app', async (I) => {
+Scenario('two session - stateful app', async (I) => {
 
-	let name = "onTy";
-	let text = "Hello!";
+	let name = "onTy "   + ts;
+	let text = "Hello! " + ts;
 
 	// first session:
 	I.amOnPage( url );
@@ -34,15 +33,20 @@ Scenario('two session - chat simple stateful app', async (I) => {
 	I.wait(1);
 	I.click( locSayItButton );
 
-	I.seeTextEquals( name, locConversationItemField2 );
-	I.seeTextEquals( text, locConversationItemField3 );
+	//I.seeTextEquals( name, locConversationItemField2 );
+	//I.seeTextEquals( text, locConversationItemField3 );
 
-	pause();
+	// second session
+	let secondSessionOpts = {
+		"browser": "firefox",
+		"windowSize": "600x600"
+	};
+	await session('secondSession', secondSessionOpts,
+		async () => {
 
-	//// second session: yahoo
-	//await session('secondSession', async () => {
-	//
-	//	I.amOnPage( urlM );
+		I.amOnPage( url );
+		I.wait(10);
+
 	//	I.seeElement( locMInputField );
 	//	I.fillField( locMInputField, queryM );
 	//	I.click( locMSearchButton );
@@ -51,8 +55,10 @@ Scenario('two session - chat simple stateful app', async (I) => {
 	//	//pause();
 	//	I.seeElement( locMSearchItem );
 	//	nrMSearchResults = await I.grabNumberOfVisibleElements( locMSearchItem );
-	//});
-	//
+	});
+
+	//I.wait(10);
+
 	//console.log("Google: " + nrGSearchResults + " search results on the page");
 	//console.log("MSN   : " + nrMSearchResults + " search results on the page");
 
