@@ -20,10 +20,12 @@ Scenario('two session - stateful app and POs', async (I, statefulChatPage) => {
 
 	let conversationItemCount = await statefulChatPage.getNrOfConversationItems();
 	let conversation = await statefulChatPage.getConversation();
+	let conversation2 = await statefulChatPage.getConversation2();
 	console.log( "We found " + conversationItemCount + " items" );
 	console.log( "Conversation: " );
 	console.dir( conversation );
-	console.log( "Len=" + conversation.length );
+	console.log( "Conversation2: " );
+	console.dir( conversation2 );
 
 	//I.seeTextEquals( name, locConversationItemField2 );
 	//I.seeTextEquals( text, locConversationItemField3 );

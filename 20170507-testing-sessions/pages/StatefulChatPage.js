@@ -64,7 +64,20 @@ module.exports = {
 	},
 
 	async getConversation() {
-		return await I.grabTextFrom(this.locConversationItems);
+		let conv = [];
+    	conv.push( await I.grabTextFrom(this.locConversationItemField1) );
+		conv.push( await I.grabTextFrom(this.locConversationItemField2) );
+		conv.push( await I.grabTextFrom(this.locConversationItemField3) );
+		return conv;
+	},
+
+	async getConversation2() {
+		let loc = await locate(this.locConversationItems)
+			.find('tr')
+			.at(2)
+			.find("td")
+			.at(2);
+		return await I.grabTextFrom(loc);
 	}
 
 };

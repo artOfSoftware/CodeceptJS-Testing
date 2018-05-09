@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6323ad42-de0e-410e-908f-796f04ea05f7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/StatefulChatPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/twoSessionsChatPO_test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecept.json" beforeDir="false" afterPath="$PROJECT_DIR$/codecept.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/twoSessionsChat_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/twoSessionsChat_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/twoSessions_Michael_test.js_" beforeDir="false" afterPath="$PROJECT_DIR$/tests/twoSessions_Michael_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/StatefulChatPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/StatefulChatPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/twoSessionsChatPO_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/twoSessionsChatPO_test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -541,7 +533,7 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.45295405">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
@@ -553,11 +545,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="codecept.json" pinned="false" current-in-tab="true">
+          <file leaf-file-name="codecept.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/codecept.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="140">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                <state relative-caret-position="280">
+                  <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -598,11 +590,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="twoSessionsChatPO_test.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="twoSessionsChatPO_test.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/twoSessionsChatPO_test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+                <state relative-caret-position="602">
+                  <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="steps.d.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/steps.d.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="378">
+                  <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -614,8 +615,8 @@
           <file leaf-file-name="StatefulChatPage.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/StatefulChatPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="224">
-                  <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+                <state relative-caret-position="505">
+                  <caret line="75" selection-start-line="75" selection-end-line="75" />
                 </state>
               </provider>
             </entry>
@@ -675,9 +676,9 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/pages/StatefulChat.js" />
         <option value="$PROJECT_DIR$/tests/twoSessionsChat_test.js" />
-        <option value="$PROJECT_DIR$/pages/StatefulChatPage.js" />
-        <option value="$PROJECT_DIR$/tests/twoSessionsChatPO_test.js" />
         <option value="$PROJECT_DIR$/codecept.json" />
+        <option value="$PROJECT_DIR$/tests/twoSessionsChatPO_test.js" />
+        <option value="$PROJECT_DIR$/pages/StatefulChatPage.js" />
       </list>
     </option>
   </component>
@@ -750,70 +751,6 @@
             <path>
               <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
-              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
-              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
-              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
-              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="acceptance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
-              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
-              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
-              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="20170507-testing-sessions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="codeceptjs" type="70bed36:NamedLibraryElementNode" />
-              <item name="codeceptjs" type="462c0819:PsiDirectoryNode" />
-              <item name="typings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -981,7 +918,7 @@
       <workItem from="1525790766877" duration="2162000" />
       <workItem from="1525815966853" duration="2729000" />
       <workItem from="1525836769282" duration="277000" />
-      <workItem from="1525837085931" duration="5218000" />
+      <workItem from="1525837085931" duration="6491000" />
     </task>
     <task id="LOCAL-00001" summary="changed test back to have an example for Michael">
       <created>1525784334621</created>
@@ -1018,11 +955,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525786872704</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding new scenarios">
+      <created>1525845276360</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525845276360</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26648000" />
+    <option name="totallyTimeSpent" value="27921000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1040,7 +984,7 @@
       <window_info anchor="right" id="Regex Tester" order="5" weight="0.32947463" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5013357" side_tool="true" weight="0.23535565" />
       <window_info anchor="bottom" id="Version Control" order="7" side_tool="true" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49955475" visible="true" weight="0.33158997" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49955475" weight="0.33158997" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4986643" weight="0.43672198" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.3294979" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895397" visible="true" weight="0.18610863" />
@@ -1435,13 +1379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/steps.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/moment/src/moment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1484,13 +1421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/twoSessionsChatPO_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1498,17 +1428,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codeceptjs/translations/zh-TW.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/codecept.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="280">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steps.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/twoSessionsChatPO_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/StatefulChatPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="505">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
