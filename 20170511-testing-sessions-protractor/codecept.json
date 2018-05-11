@@ -1,0 +1,24 @@
+{
+	"name": "CodeceptJS-QA-0180511-testing-sessions-protractor",
+
+	"output": "./output",
+	"tests": "./tests/*.js",
+	"timeout": 10000,
+
+	"helpers": {
+		"Protractor": {
+			"url": "http:///",
+			"browser": "chrome",
+			"angular": false
+		}
+	},
+
+	"include": {
+		"statefulChatPage": "./pages/StatefulChatPage.js"
+	},
+
+	"mocha": {},
+	"bootstrap": false,
+	"teardown": null,
+	"hooks": []
+}
