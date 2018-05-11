@@ -42,9 +42,6 @@ module.exports = {
 	async post( name, text ) {
 		let ts = moment.now();
 
-		name = name + " " + ts;
-		text = text + " " + ts;
-
 		await I.fillField( this.locNameField, name );
 		await I.fillField( this.locTextField, text );
 		await I.wait(1);
