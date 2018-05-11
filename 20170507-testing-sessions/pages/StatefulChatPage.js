@@ -14,7 +14,8 @@ module.exports = {
     },
 
     // insert your locators and methods here
-	urlBase: "http://toom47-001-site5.itempurl.com",
+	//urlBase: "http://toom47-001-site5.itempurl.com",
+	urlBase: "http://www.statefulapp.ontytoom.com",
 	url:     "/UI/ChatRoom",
 
     locNameField: "#MainContent_textUserName",
@@ -34,6 +35,7 @@ module.exports = {
 	},
 
 	async validate() {
+    	await I.seeInCurrentUrl( this.url );
 		await I.seeElement( this.locNameField );
 	},
 
@@ -64,19 +66,24 @@ module.exports = {
 	},
 
 	async getConversation() {
+    	let field1array = await I.grabTextFrom(this.locConversationItemField1);
+		let field2array = await I.grabTextFrom(this.locConversationItemField2);
+		let field3array = await I.grabTextFrom(this.locConversationItemField3);
 		let conv = [];
-    	conv.push( await I.grabTextFrom(this.locConversationItemField1) );
-		conv.push( await I.grabTextFrom(this.locConversationItemField2) );
-		conv.push( await I.grabTextFrom(this.locConversationItemField3) );
+		for ( let i=0; i<field1array.length; i++ )
+			conv.push( [ field1array[i], field2array[i], field3array[i] ] );
+
 		return conv;
 	},
 
-	async getConversation2() {
-		let loc = await locate(this.locConversationItems)
+	async getLastMessage() {
+		let nr = await I.grabNumberOfVisibleElements(this.locConversationItems);
+
+		let loc = await locate( this.locConversation )
 			.find('tr')
-			.at(2)
+			.at(nr)
 			.find("td")
-			.at(2);
+			.at(3);
 		return await I.grabTextFrom(loc);
 	}
 

@@ -47,14 +47,13 @@ Scenario('two session - stateful app', async (I) => {
 		I.amOnPage( url );
 		I.wait(10);
 
-	//	I.seeElement( locMInputField );
-	//	I.fillField( locMInputField, queryM );
-	//	I.click( locMSearchButton );
-	//	I.switchToNextTab();
-	//	I.wait(1);
-	//	//pause();
-	//	I.seeElement( locMSearchResultsItem );
-	//	nrMSearchResults = await I.grabNumberOfVisibleElements( locMSearchResultsItem );
+		I.seeElement( locMInputField );
+		I.fillField( locMInputField, queryM );
+		I.click( locMSearchButton );
+		I.switchToNextTab();
+		I.wait(1);
+		I.seeElement( locMSearchResultsItem );
+		//nrMSearchResults = await I.grabNumberOfVisibleElements( locMSearchResultsItem );
 	});
 
 	//I.wait(10);

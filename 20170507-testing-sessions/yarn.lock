@@ -260,9 +260,9 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-"codeceptjs@github:Codeception/CodeceptJS":
+"codeceptjs@github:Codeception/CodeceptJS#sess-improv":
   version "1.2.0"
-  resolved "https://codeload.github.com/Codeception/CodeceptJS/tar.gz/1f04bde2d894ba9c4be60628d225a15b6d4adcd6"
+  resolved "https://codeload.github.com/Codeception/CodeceptJS/tar.gz/4cb812596c4d2d2fb6b1df94f55d43f1e8a56d11"
   dependencies:
     chalk "^1.1.3"
     commander "^2.14.1"
