@@ -1,6 +1,6 @@
 {
-	"name": "CodeceptJS-Testing-0180507-testing-sessions",
-	"version": "0.0.2",
+	"name": "CodeceptJS-Testing-0180507-testing-sessions-protractor",
+	"version": "0.0.1",
 	"description": "Some description",
 	"author": {
 		"name": "onTy Toom",
@@ -8,7 +8,6 @@
 	},
 	"license": "MIT",
 	"homepage": "https://codecept.io",
-	"main": "index2.js",
 	"repository": "https://github.com/ontytoom/CodeceptJS-Testing.git",
 
 	"dependencies": {
