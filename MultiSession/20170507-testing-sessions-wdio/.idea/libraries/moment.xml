@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="moment" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/node_modules/moment" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/node_modules/moment" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

@@ -13,5 +13,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="webdriverio" level="project" />
     <orderEntry type="library" name="codeceptjs" level="project" />
+    <orderEntry type="library" name="moment" level="project" />
   </component>
 </module>

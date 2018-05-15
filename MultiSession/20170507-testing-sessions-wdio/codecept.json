@@ -2,7 +2,7 @@
 	"name": "CodeceptJS-QA-0180507-testing-sessions",
 
 	"output": "./output",
-	"tests": "./tests/*.js",
+	"tests": "./tests/**/*.js",
 	"timeout": 10000,
 
 	"helpers": {
