@@ -5,7 +5,7 @@ Automated testing for CodeceptJS.
 Links:
 * Official Site: http://codecept.io
 * Code on Github: https://github.com/Codeception/CodeceptJS
-* Change log: https://github.com/Codeception/CodeceptJS/blob/a8dba4ca3721333cb9f7af70f575e4f1fedee0cd/CHANGELOG.md
+* Change log: https://github.com/Codeception/CodeceptJS/blob/master/CHANGELOG.md
 
 The first feature being tested is the muti-session support targeted for 1.2 (see [roadmap](https://github.com/Codeception/CodeceptJS/wiki/Roadmap) on the project Wiki).
 
