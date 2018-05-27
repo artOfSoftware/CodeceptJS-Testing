@@ -26,8 +26,14 @@ exports.config = {
 				}
 			]
 		},
+		'JSFailure': {
+			'require': './codeceptjs/helpers/js-failure.js'
+		},
+		'Mochawesome': {
+		}
 	},
 	'include': {
+		'I': './codeceptjs/common-steps/steps.js'
 	},
 	'mocha': {
 		'reporterOptions': {
@@ -56,7 +62,7 @@ exports.config = {
 	'bootstrap': false,
 	'teardown': null,
 	'hooks': [],
-	'tests': './tests/**/*.js',
+	'tests': './codeceptjs/tests/**/*-test.js',
 	'timeout': 10000,
 	'name': 'cls-ucp-web',
 	'multiple': {

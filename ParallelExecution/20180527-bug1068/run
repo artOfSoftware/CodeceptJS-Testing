@@ -1,0 +1,4 @@
+#!/bin/bash
+
+node_modules/.bin/codeceptjs run --config=./codecept.js $*
+
