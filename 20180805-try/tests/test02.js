@@ -9,35 +9,35 @@ Scenario.only("browse tiqcse site", async I => {
 	
 	console.log("### START");
 
-	
-	I.amOnPage("http://tiqcse.nyc");
-	
-	I.seeInCurrentUrl("tiqcse.nyc")
-	I.see("Engineering");
 
-	I.wait(10);
+	await I.amOnPage("http://tiqcse.nyc");
+
+	await I.seeInCurrentUrl("tiqcse.nyc");
+	await I.see("Engineering");
+
+	await I.wait(10);
 	
 	// wait for page to finish loading
-	I.waitForVisible("#comp-jkg3tw4siframe", 60);
+	await I.waitForElement("#comp-jkg3tw4siframe", 60);
 	
 	// click Experiment
 	//I.click( { xpath: "//a[contains(@href,'/venue')]" } ); 
 		//"a[text()='Venue']" );
 		//[role=button]
 	//I.click( "a[href$='/experiment']" );
-	I.click("experiment");
+	await I.click( "Experiment" );
 	
 	// wait for page to finish loading
-	I.waitForVisible("#SITE_FOOTERinlineContent", 60);
+	await I.waitForElement("#SITE_FOOTERinlineContent", 60);
 
-	I.seeInCurrentUrl("/experiment");
-	I.see("The Vision");
+	await I.seeInCurrentUrl("/experiment");
+	await I.see("The Vision");
 
 	// click Syllabus
-	I.click( "a[href$='/syllabus']" );
+	await I.click( "a[href$='/syllabus']" );
 
-	I.seeInCurrentUrl("/syllabus")
-	I.see("Syllabus");
+	await I.seeInCurrentUrl("/syllabus");
+	await I.see("Syllabus");
 	
 
 	console.log("### END");

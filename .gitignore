@@ -60,3 +60,5 @@ typings/
 # mac
 .DS_Storage
 
+# mocha output
+output/

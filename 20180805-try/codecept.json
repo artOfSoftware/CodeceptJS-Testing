@@ -1,16 +1,17 @@
 {
-  "tests": "./tests/test*.js",
-  "timeout": 10000,
-  "output": "./output",
-  "helpers": {
-    "Puppeteer": {
-      "url": "http://www.google.com/"
-    }
-  },
-  "include": {
-    "I": "./codecept-steps.js"
-  },
-  "bootstrap": false,
-  "mocha": {},
-  "name": "20180805-try"
+	"name": "20180805-try",
+
+	"tests": "./tests/test*.js",
+	"timeout": 10000,
+	"output": "./output",
+	"helpers": {
+		"Puppeteer": {
+			"url": "about:blank"
+		}
+	},
+	"include": {
+		"I": "./codecept-steps.js"
+	},
+	"bootstrap": false,
+	"mocha": {}
 }
