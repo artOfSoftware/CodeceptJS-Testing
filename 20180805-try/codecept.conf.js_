@@ -1,0 +1,21 @@
+// codecept.js
+
+module.exports = {
+	"name": "20180805-try",
+
+	"tests": "./tests/*.js",
+	"timeout": 10000,
+	"output": "./output",
+
+	"helpers": {
+		"Puppeteer": {
+			"show": true,
+			"url": "http://www.google.com/"
+		}
+	},
+	"include": {
+		"I": "./codecept-steps.js"
+	},
+	"bootstrap": false,
+	"mocha": {},
+};

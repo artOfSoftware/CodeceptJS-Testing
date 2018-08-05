@@ -4,8 +4,7 @@
   "output": "./output",
   "helpers": {
     "Puppeteer": {
-      "show": true,
-      "url": "about:blank"
+      "url": "http://www.google.com/"
     }
   },
   "include": {

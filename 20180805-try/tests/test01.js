@@ -11,7 +11,7 @@ Scenario("test01a", async I => {
 
 	I.amOnPage("http://tiqcse.nyc");
 
-	I.seeInCurrentUrl("tiqcse.nyc")
+	I.seeInCurrentUrl("tiqcse.nyc");
 
 	I.see("Engineering");
 	
