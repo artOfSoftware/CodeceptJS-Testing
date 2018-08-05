@@ -1,0 +1,20 @@
+{
+
+	"name": "CodeceptWithRest01",
+
+	"tests": "tests/*.js",
+	"timeout": 10000,
+	"output": "./output",
+
+	"helpers": {
+		"REST": {}
+	},
+
+	"include": {
+		"I": "./codecept-steps.js"
+	},
+
+	"bootstrap": false,
+	"mocha": {}
+
+}

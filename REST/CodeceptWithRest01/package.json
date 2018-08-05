@@ -1,0 +1,12 @@
+{
+	"name": "CodeceptWithRest01",
+	"version": "0.0.1",
+
+	"dependencies": {
+		"codeceptjs": "^1.3.2",
+		"unirest": "^0.5.1",
+		"prettier": "^1.14.0",
+		"neatjson": "^0.8.3"
+	}
+
+}
