@@ -1,0 +1,16 @@
+{
+  "tests": "./tests/test*.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "Puppeteer": {
+      "url": "http://www.google.com/"
+    }
+  },
+  "include": {
+    "I": "./codecept-steps.js"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "20180805-try"
+}
