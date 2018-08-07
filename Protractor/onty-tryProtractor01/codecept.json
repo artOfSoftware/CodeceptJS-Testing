@@ -1,0 +1,21 @@
+{
+	"tests": "./tests/*.js",
+	"timeout": 10000,
+	"output": "./output",
+	"helpers": {
+		"Protractor": {
+			"url": "about:blank",
+			"driver": "local",
+			"browser": "chrome",
+			"rootElement": "body",
+			"show": false,
+			"angular": true
+		}
+	},
+	"include": {
+		"I": "./codecept-steps.js"
+	},
+	"bootstrap": false,
+	"mocha": {},
+	"name": "onty-tryProtractor01"
+}
