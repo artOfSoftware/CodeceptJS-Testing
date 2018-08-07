@@ -1,7 +1,10 @@
 {
 	"name": "20180805-try",
-
 	"tests": "./tests/test*.js",
+	"mocha": {},
+	"bootstrap": false,
+	"teardown": null,
+	"hooks": [],
 	"timeout": 10000,
 	"output": "./output",
 	"helpers": {
@@ -10,8 +13,14 @@
 		}
 	},
 	"include": {
-		"I": "./codecept-steps.js"
-	},
-	"bootstrap": false,
-	"mocha": {}
+		"I": "./codecept-steps.js",
+        "navUtil": "./pages/NavUtil.js",
+		"homePage": "./pages/Home.js",
+		"experimentPage": "./pages/Experiment.js",
+		"syllabusPage": "./pages/Syllabus.js",
+		"teamPage": "./pages/Team.js",
+		"venuePage": "./pages/Venue.js",
+		"linksPage": "./pages/Links.js",
+		"contactPage": "./pages/Contact.js"
+	}
 }
